@@ -1,0 +1,1087 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="4a4c8867-5d46-4153-97a7-bc4019aec865" name="Default" comment="" />
+    <ignored path="$PROJECT_DIR$/out/" />
+    <ignored path="$PROJECT_DIR$/target/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_TABLE_DETAILS" value="true" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="gupaoedu-vip-pattern-factory" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/gupaoedu/vip/pattern/factory/abstractfactory/IVideo.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="114">
+              <caret line="6" column="17" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/gupaoedu/vip/pattern/factory/abstractfactory/AbstractFactoryTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="247">
+              <caret line="13" selection-start-line="7" selection-end-line="14" selection-end-column="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/gupaoedu/vip/pattern/factory/abstractfactory/CourseFactory.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="228">
+              <caret line="12" column="25" lean-forward="true" selection-start-line="12" selection-start-column="25" selection-end-line="12" selection-end-column="25" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/gupaoedu/vip/pattern/factory/abstractfactory/JavaVideo.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="76">
+              <caret line="4" column="21" lean-forward="true" selection-start-line="4" selection-start-column="21" selection-end-line="4" selection-end-column="21" />
+              <folding>
+                <element signature="e#158#159#0" expanded="true" />
+                <element signature="e#204#205#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="uml://JAVA/com.gupaoedu.vip.pattern.factory.abstractfactory.CourseFactory">
+          <provider selected="true" editor-type-id="UmlEditorProvider">
+            <state>
+              <ID>JAVA</ID>
+              <OriginalElement>com.gupaoedu.vip.pattern.factory.abstractfactory.CourseFactory</OriginalElement>
+              <nodes>
+                <node x="111.0" y="0.0">com.gupaoedu.vip.pattern.factory.abstractfactory.CourseFactory</node>
+                <node x="190.0" y="80.0">com.gupaoedu.vip.pattern.factory.abstractfactory.JavaCourseFactory</node>
+                <node x="85.75" y="155.0">com.gupaoedu.vip.pattern.factory.abstractfactory.IVideo</node>
+                <node x="142.0" y="235.0">com.gupaoedu.vip.pattern.factory.abstractfactory.JavaVideo</node>
+                <node x="0.0" y="80.0">com.gupaoedu.vip.pattern.factory.abstractfactory.PythonCourseFactory</node>
+                <node x="82.75" y="310.0">com.gupaoedu.vip.pattern.factory.abstractfactory.INote</node>
+                <node x="0.0" y="390.0">com.gupaoedu.vip.pattern.factory.abstractfactory.PythonNote</node>
+                <node x="137.0" y="390.0">com.gupaoedu.vip.pattern.factory.abstractfactory.JavaNote</node>
+                <node x="0.0" y="235.0">com.gupaoedu.vip.pattern.factory.abstractfactory.PythonVideo</node>
+              </nodes>
+              <notes />
+              <edges>
+                <edge source="com.gupaoedu.vip.pattern.factory.abstractfactory.JavaCourseFactory" target="com.gupaoedu.vip.pattern.factory.abstractfactory.CourseFactory">
+                  <point x="0.0" y="-15.0" />
+                  <point x="267.0" y="55.0" />
+                  <point x="208.5" y="55.0" />
+                  <point x="32.5" y="15.0" />
+                </edge>
+                <edge source="com.gupaoedu.vip.pattern.factory.abstractfactory.JavaNote" target="com.gupaoedu.vip.pattern.factory.abstractfactory.INote">
+                  <point x="0.0" y="-15.0" />
+                  <point x="187.0" y="365.0" />
+                  <point x="142.75" y="365.0" />
+                  <point x="20.0" y="15.0" />
+                </edge>
+                <edge source="com.gupaoedu.vip.pattern.factory.abstractfactory.PythonNote" target="com.gupaoedu.vip.pattern.factory.abstractfactory.INote">
+                  <point x="0.0" y="-15.0" />
+                  <point x="58.5" y="365.0" />
+                  <point x="102.75" y="365.0" />
+                  <point x="-20.0" y="15.0" />
+                </edge>
+                <edge source="com.gupaoedu.vip.pattern.factory.abstractfactory.PythonVideo" target="com.gupaoedu.vip.pattern.factory.abstractfactory.IVideo">
+                  <point x="0.0" y="-15.0" />
+                  <point x="61.0" y="210.0" />
+                  <point x="106.75" y="210.0" />
+                  <point x="-21.0" y="15.0" />
+                </edge>
+                <edge source="com.gupaoedu.vip.pattern.factory.abstractfactory.PythonCourseFactory" target="com.gupaoedu.vip.pattern.factory.abstractfactory.CourseFactory">
+                  <point x="0.0" y="-15.0" />
+                  <point x="85.0" y="55.0" />
+                  <point x="143.5" y="55.0" />
+                  <point x="-32.5" y="15.0" />
+                </edge>
+                <edge source="com.gupaoedu.vip.pattern.factory.abstractfactory.JavaVideo" target="com.gupaoedu.vip.pattern.factory.abstractfactory.IVideo">
+                  <point x="0.0" y="-15.0" />
+                  <point x="194.5" y="210.0" />
+                  <point x="148.75" y="210.0" />
+                  <point x="21.0" y="15.0" />
+                </edge>
+              </edges>
+              <settings layout="Hierarchic Group" zoom="1.0" x="-93.0" y="128.0" />
+              <SelectedNodes>
+                <node>com.gupaoedu.vip.pattern.factory.abstractfactory.CourseFactory</node>
+              </SelectedNodes>
+              <Categories />
+              <SCOPE>All</SCOPE>
+              <VISIBILITY>private</VISIBILITY>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/gupaoedu/vip/pattern/factory/abstractfactory/INote.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="114">
+              <caret line="6" column="17" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/gupaoedu/vip/pattern/factory/abstractfactory/JavaNote.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="114">
+              <caret line="6" selection-start-line="6" selection-end-line="11" selection-end-column="1" />
+              <folding>
+                <element signature="e#160#161#0" expanded="true" />
+                <element signature="e#206#207#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/gupaoedu/vip/pattern/factory/abstractfactory/JavaCourseFactory.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="95">
+              <caret line="5" selection-start-line="5" selection-end-line="14" selection-end-column="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/main/java/com/gupaoedu/vip/pattern/factory/factorymethod/SanluFactory.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/gupaoedu/vip/pattern/factory/factorymethod/TelunsuFactory.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/gupaoedu/vip/pattern/factory/factorymethod/YiliFactory.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/gupaoedu/vip/pattern/factory/simplefactory/ICourse.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/gupaoedu/vip/pattern/factory/simplefactory/JavaCourse.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/gupaoedu/vip/pattern/factory/simplefactory/PythonCourse.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/gupaoedu/vip/pattern/factory/factorymethod/MengniuFactory.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/gupaoedu/vip/pattern/factory/simplefactory/SimpleFactoryTest.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/gupaoedu/vip/pattern/factory/factorymethod/CourseFactory.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/gupaoedu/vip/pattern/factory/factorymethod/PythonCourseFactory.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/gupaoedu/vip/pattern/factory/ICourse.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/gupaoedu/vip/pattern/factory/factorymethod/ICourseFactory.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/gupaoedu/vip/pattern/factory/factorymethod/JavaCourseFactory.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/gupaoedu/vip/pattern/factory/abstractfactory/CourseFactory.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/gupaoedu/vip/pattern/factory/factorymethod/FactoryMethodTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/gupaoedu/vip/pattern/factory/JavaCourse.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/gupaoedu/vip/pattern/factory/JavaVideo.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/gupaoedu/vip/pattern/factory/PythonVideo.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/gupaoedu/vip/pattern/factory/PythonNote.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/gupaoedu/vip/pattern/factory/JavaNote.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/gupaoedu/vip/pattern/factory/IVideo.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/gupaoedu/vip/pattern/factory/INote.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/gupaoedu/vip/pattern/factory/PythonCourse.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/gupaoedu/vip/pattern/factory/abstractfactory/JavaNote.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/gupaoedu/vip/pattern/factory/abstractfactory/JavaCourseFactory.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/gupaoedu/vip/pattern/factory/abstractfactory/PythonCourseFactory.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/gupaoedu/vip/pattern/factory/abstractfactory/AbstractFactoryTest.java" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="7">
+    <option name="x" value="402" />
+    <option name="y" value="291" />
+    <option name="width" value="1359" />
+    <option name="height" value="1092" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="gupaoedu-vip-pattern-factory" type="b2602c69:ProjectViewProjectNode" />
+              <item name="gupaoedu-vip-pattern-factory" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="gupaoedu-vip-pattern-factory" type="b2602c69:ProjectViewProjectNode" />
+              <item name="gupaoedu-vip-pattern-factory" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="gupaoedu-vip-pattern-factory" type="b2602c69:ProjectViewProjectNode" />
+              <item name="gupaoedu-vip-pattern-factory" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="gupaoedu-vip-pattern-factory" type="b2602c69:ProjectViewProjectNode" />
+              <item name="gupaoedu-vip-pattern-factory" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="gupaoedu-vip-pattern-factory" type="b2602c69:ProjectViewProjectNode" />
+              <item name="gupaoedu-vip-pattern-factory" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="factory" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="gupaoedu-vip-pattern-factory" type="b2602c69:ProjectViewProjectNode" />
+              <item name="gupaoedu-vip-pattern-factory" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="factory" type="462c0819:PsiDirectoryNode" />
+              <item name="abstractfactory" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1552125527581" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="AndroidTestRunConfigurationType" factoryName="Android Tests">
+      <module name="" />
+      <option name="TESTING_TYPE" value="0" />
+      <option name="INSTRUMENTATION_RUNNER_CLASS" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="EXTRA_OPTIONS" value="" />
+      <option name="TARGET_SELECTION_MODE" value="SHOW_DIALOG" />
+      <option name="PREFERRED_AVD" value="" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="false" />
+      <option name="SKIP_NOOP_APK_INSTALLATIONS" value="true" />
+      <option name="FORCE_STOP_RUNNING_APP" value="true" />
+      <option name="DEBUGGER_TYPE" value="Java" />
+      <option name="USE_LAST_SELECTED_DEVICE" value="false" />
+      <option name="PREFERRED_AVD" value="" />
+      <Java />
+      <Profilers>
+        <option name="ENABLE_ADVANCED_PROFILING" value="true" />
+        <option name="GAPID_ENABLED" value="false" />
+        <option name="GAPID_DISABLE_PCS" value="false" />
+        <option name="SUPPORT_LIB_ENABLED" value="true" />
+        <option name="INSTRUMENTATION_ENABLED" value="true" />
+      </Profilers>
+      <method />
+    </configuration>
+    <configuration default="true" type="Applet">
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SimpleFactoryTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.gupaoedu.vip.pattern.factory.simplefactory.SimpleFactoryTest" />
+      <module name="gupaoedu-vip-pattern-factory" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.gupaoedu.vip.pattern.factory.abstractfactory.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="Application" factoryName="Application">
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="VM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="ArquillianTestNG" factoryName="">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="VM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="GrailsRunConfigurationType" factoryName="Grails">
+      <setting name="vmparams" value="" />
+      <setting name="cmdLine" value="run-app" />
+      <setting name="passParentEnv" value="true" />
+      <setting name="launchBrowser" value="true" />
+      <setting name="launchBrowserUrl" value="" />
+      <setting name="depsClasspath" value="false" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType" factoryName="Kotlin script">
+      <option name="filePath" />
+      <option name="vmParameters" />
+      <option name="alternativeJrePath" />
+      <option name="programParameters" />
+      <option name="passParentEnvs" value="true" />
+      <option name="workingDirectory" />
+      <option name="isAlternativeJrePathEnabled" value="false" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="WORKING_DIRECTORY" />
+      <module name="" />
+      <option name="filePath" />
+      <option name="vmParameters" />
+      <option name="alternativeJrePath" />
+      <option name="programParameters" />
+      <option name="passParentEnvs" value="true" />
+      <option name="workingDirectory" />
+      <option name="isAlternativeJrePathEnabled" value="false" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="WORKING_DIRECTORY" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="TestNG">
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType">
+      <module name="" />
+      <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
+      <option name="PROGRAM_PARAMETERS" />
+      <predefined_log_file enabled="true" id="idea.log" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="js.build_tools.gulp">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <gulpfile />
+      <tasks />
+      <arguments />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.SimpleFactoryTest" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="4a4c8867-5d46-4153-97a7-bc4019aec865" name="Default" comment="" />
+      <created>1550835372074</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1550835372074</updated>
+      <workItem from="1550835375120" duration="6866000" />
+      <workItem from="1552119963965" duration="4671000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="11537000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-7" y="-7" width="1295" height="735" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Capture Tool" order="0" />
+      <window_info id="Designer" order="1" />
+      <window_info id="UI Designer" order="2" />
+      <window_info id="Image Layers" order="3" />
+      <window_info id="Favorites" order="4" side_tool="true" />
+      <window_info id="Nl-Palette" order="5" />
+      <window_info active="true" content_ui="combo" id="Project" order="6" visible="true" weight="0.3565077" />
+      <window_info id="Structure" order="7" weight="0.25" />
+      <window_info anchor="bottom" id="Database Changes" />
+      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" order="0" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" order="1" weight="0.29418105" />
+      <window_info anchor="bottom" id="Version Control" order="2" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Terminal" order="3" />
+      <window_info anchor="bottom" id="Message" order="4" />
+      <window_info anchor="bottom" id="Find" order="5" weight="0.3297414" />
+      <window_info anchor="bottom" id="Run" order="6" weight="0.32962328" />
+      <window_info anchor="bottom" id="Debug" order="7" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="8" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="9" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="10" />
+      <window_info anchor="right" id="Maven" />
+      <window_info anchor="right" id="Maven Projects" order="0" />
+      <window_info anchor="right" id="Properties" order="1" />
+      <window_info anchor="right" id="Palette&#9;" order="2" />
+      <window_info anchor="right" id="Database" order="3" />
+      <window_info anchor="right" id="Capture Analysis" order="4" />
+      <window_info anchor="right" id="Theme Preview" order="5" />
+      <window_info anchor="right" id="Palette" order="6" />
+      <window_info anchor="right" id="Commander" order="7" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="8" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="9" weight="0.25" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="antWorkspaceConfiguration">
+    <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
+    <option name="FILTER_TARGETS" value="false" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/gupaoedu/vip/pattern/factory/factorymethod/YiliFactory.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/gupaoedu/vip/pattern/factory/factorymethod/TelunsuFactory.java" />
+    <entry file="file://$MAVEN_REPOSITORY$/org/slf4j/slf4j-api/1.7.25/slf4j-api-1.7.25.pom" />
+    <entry file="file://$MAVEN_REPOSITORY$/log4j/log4j/1.2.17/log4j-1.2.17.pom" />
+    <entry file="jar://$MAVEN_REPOSITORY$/org/slf4j/slf4j-api/1.7.2/slf4j-api-1.7.2.jar!/org/slf4j/LoggerFactory.class" />
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="388">
+          <caret line="17" column="28" selection-start-line="17" selection-start-column="28" selection-end-line="17" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/mybatis/mybatis/3.5.0/mybatis-3.5.0.jar!/org/apache/ibatis/session/defaults/DefaultSqlSessionFactory.class" />
+    <entry file="jar://$MAVEN_REPOSITORY$/org/mybatis/mybatis/3.5.0/mybatis-3.5.0.jar!/org/apache/ibatis/session/SqlSessionManager.class" />
+    <entry file="jar://$MAVEN_REPOSITORY$/org/mybatis/mybatis/3.5.0/mybatis-3.5.0.jar!/org/apache/ibatis/session/SqlSessionFactory.class" />
+    <entry file="uml://JAVA/org.apache.ibatis.session.SqlSessionFactory">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JAVA</ID>
+          <OriginalElement>org.apache.ibatis.session.SqlSessionFactory</OriginalElement>
+          <nodes>
+            <node x="28.5" y="264.0">org.apache.ibatis.session.SqlSessionManager.SqlSessionInterceptor</node>
+            <node x="270.0" y="132.0">org.apache.ibatis.session.defaults.DefaultSqlSessionFactory</node>
+            <node x="0.0" y="107.0">org.apache.ibatis.session.SqlSessionManager</node>
+            <node x="137.0" y="0.0">org.apache.ibatis.session.SqlSessionFactory</node>
+          </nodes>
+          <notes />
+          <edges>
+            <edge source="org.apache.ibatis.session.SqlSessionManager.SqlSessionInterceptor" target="org.apache.ibatis.session.SqlSessionManager">
+              <point x="0.0" y="-16.0" />
+              <point x="0.0" y="53.5" />
+            </edge>
+            <edge source="org.apache.ibatis.session.defaults.DefaultSqlSessionFactory" target="org.apache.ibatis.session.SqlSessionFactory">
+              <point x="0.0" y="-28.5" />
+              <point x="391.0" y="82.0" />
+              <point x="318.5" y="82.0" />
+              <point x="60.5" y="28.5" />
+            </edge>
+            <edge source="org.apache.ibatis.session.SqlSessionManager" target="org.apache.ibatis.session.SqlSessionFactory">
+              <point x="0.0" y="-53.5" />
+              <point x="125.0" y="82.0" />
+              <point x="197.5" y="82.0" />
+              <point x="-60.5" y="28.5" />
+            </edge>
+          </edges>
+          <settings layout="Hierarchic Group" zoom="1.0" x="-205.0" y="136.0" />
+          <SelectedNodes />
+          <Categories>
+            <Category>Fields</Category>
+            <Category>Properties</Category>
+            <Category>Inner Classes</Category>
+          </Categories>
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>public</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://JAVA/org.slf4j.LoggerFactory">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JAVA</ID>
+          <OriginalElement>org.slf4j.LoggerFactory</OriginalElement>
+          <nodes>
+            <node x="" y="">org.slf4j.LoggerFactory</node>
+          </nodes>
+          <notes />
+          <edges />
+          <settings layout="Hierarchic Group" zoom="1.0" x="72.0" y="16.0" />
+          <SelectedNodes />
+          <Categories>
+            <Category>Methods</Category>
+          </Categories>
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>public</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://JAVA/com.gupaoedu.vip.pattern.factory.factorymethod.ICourseFactory">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JAVA</ID>
+          <OriginalElement>com.gupaoedu.vip.pattern.factory.factorymethod.ICourseFactory</OriginalElement>
+          <nodes>
+            <node x="425.0" y="108.0">com.gupaoedu.vip.pattern.factory.PythonCourse</node>
+            <node x="93.0" y="217.0">com.gupaoedu.vip.pattern.factory.factorymethod.FactoryMethodTest</node>
+            <node x="212.0" y="108.0">com.gupaoedu.vip.pattern.factory.factorymethod.JavaCourseFactory</node>
+            <node x="110.25" y="0.0">com.gupaoedu.vip.pattern.factory.factorymethod.ICourseFactory</node>
+            <node x="601.0" y="108.0">com.gupaoedu.vip.pattern.factory.JavaCourse</node>
+            <node x="513.0" y="0.0">com.gupaoedu.vip.pattern.factory.ICourse</node>
+            <node x="0.0" y="108.0">com.gupaoedu.vip.pattern.factory.factorymethod.PythonCourseFactory</node>
+          </nodes>
+          <notes />
+          <edges>
+            <edge source="com.gupaoedu.vip.pattern.factory.factorymethod.PythonCourseFactory" target="com.gupaoedu.vip.pattern.factory.factorymethod.ICourseFactory">
+              <point x="-1.4210854715202004E-14" y="-29.0" />
+              <point x="95.99999999999999" y="83.0" />
+              <point x="154.0" y="83.0" />
+              <point x="-43.75" y="29.0" />
+            </edge>
+            <edge source="com.gupaoedu.vip.pattern.factory.PythonCourse" target="com.gupaoedu.vip.pattern.factory.ICourse">
+              <point x="0.0" y="-29.0" />
+              <point x="503.0" y="83.0" />
+              <point x="552.0" y="83.0" />
+              <point x="-39.0" y="29.0" />
+            </edge>
+            <edge source="com.gupaoedu.vip.pattern.factory.factorymethod.JavaCourseFactory" target="com.gupaoedu.vip.pattern.factory.factorymethod.ICourseFactory">
+              <point x="0.0" y="-29.0" />
+              <point x="299.5" y="83.0" />
+              <point x="241.5" y="83.0" />
+              <point x="43.75" y="29.0" />
+            </edge>
+            <edge source="com.gupaoedu.vip.pattern.factory.JavaCourse" target="com.gupaoedu.vip.pattern.factory.ICourse">
+              <point x="0.0" y="-29.0" />
+              <point x="679.0" y="83.0" />
+              <point x="630.0" y="83.0" />
+              <point x="39.0" y="29.0" />
+            </edge>
+          </edges>
+          <settings layout="Hierarchic Group" zoom="1.0" x="-95.0" y="56.0" />
+          <SelectedNodes />
+          <Categories>
+            <Category>Methods</Category>
+            <Category>Inner Classes</Category>
+          </Categories>
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>public</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/slf4j/slf4j-api/1.7.2/slf4j-api-1.7.2.jar!/org/slf4j/Logger.class" />
+    <entry file="uml://JAVA/org.slf4j.Logger">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JAVA</ID>
+          <OriginalElement>org.slf4j.Logger</OriginalElement>
+          <nodes>
+            <node x="482.0" y="-488.0">org.slf4j.Logger</node>
+          </nodes>
+          <notes />
+          <edges />
+          <settings layout="Hierarchic Group" zoom="1.0" x="-310.0" y="-178.0" />
+          <SelectedNodes>
+            <node>org.slf4j.Logger</node>
+          </SelectedNodes>
+          <Categories />
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>public</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://JAVA/org.slf4j.ILoggerFactory">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JAVA</ID>
+          <OriginalElement>org.slf4j.ILoggerFactory</OriginalElement>
+          <nodes>
+            <node x="51.5" y="249.0">org.slf4j.impl.Log4jLoggerAdapter</node>
+            <node x="257.0" y="0.0">org.slf4j.Logger</node>
+            <node x="337.75" y="249.0">org.slf4j.helpers.NOPLogger</node>
+            <node x="393.0" y="-84.0">org.slf4j.impl.Log4jLoggerFactory</node>
+            <node x="261.5" y="166.0">org.slf4j.helpers.MarkerIgnoringBase</node>
+            <node x="197.0" y="-84.0">org.slf4j.helpers.NOPLoggerFactory</node>
+            <node x="217.0" y="83.0">org.slf4j.helpers.NamedLoggerBase</node>
+            <node x="210.5" y="-167.0">org.slf4j.ILoggerFactory</node>
+            <node x="0.0" y="83.0">org.slf4j.spi.LocationAwareLogger</node>
+            <node x="-36.0" y="-84.0">org.slf4j.helpers.SubstituteLoggerFactory</node>
+          </nodes>
+          <notes />
+          <edges>
+            <edge source="org.slf4j.impl.Log4jLoggerAdapter" target="org.slf4j.helpers.MarkerIgnoringBase">
+              <point x="47.0" y="-16.5" />
+              <point x="192.5" y="224.0" />
+              <point x="308.25" y="224.0" />
+              <point x="-46.75" y="16.5" />
+            </edge>
+            <edge source="org.slf4j.helpers.MarkerIgnoringBase" target="org.slf4j.Logger">
+              <point x="46.75" y="-16.5" />
+              <point x="401.75" y="141.0" />
+              <point x="404.5" y="141.0" />
+              <point x="404.5" y="58.0" />
+              <point x="337.83333333333337" y="58.0" />
+              <point x="32.33333333333337" y="16.5" />
+            </edge>
+            <edge source="org.slf4j.impl.Log4jLoggerAdapter" target="org.slf4j.spi.LocationAwareLogger">
+              <point x="-47.0" y="-16.5" />
+              <point x="0.0" y="16.5" />
+            </edge>
+            <edge source="org.slf4j.helpers.SubstituteLoggerFactory" target="org.slf4j.ILoggerFactory">
+              <point x="0.0" y="-16.5" />
+              <point x="70.5" y="-109.0" />
+              <point x="235.33333333333331" y="-109.0" />
+              <point x="-49.666666666666686" y="16.5" />
+            </edge>
+            <edge source="org.slf4j.spi.LocationAwareLogger" target="org.slf4j.Logger">
+              <point x="0.0" y="-16.5" />
+              <point x="98.5" y="58.0" />
+              <point x="273.1666666666667" y="58.0" />
+              <point x="-32.333333333333314" y="16.5" />
+            </edge>
+            <edge source="org.slf4j.helpers.NOPLogger" target="org.slf4j.helpers.MarkerIgnoringBase">
+              <point x="0.0" y="-16.5" />
+              <point x="46.75" y="16.5" />
+            </edge>
+            <edge source="org.slf4j.helpers.NamedLoggerBase" target="org.slf4j.Logger">
+              <point x="0.0" y="-16.5" />
+              <point x="0.0" y="16.5" />
+            </edge>
+            <edge source="org.slf4j.impl.Log4jLoggerFactory" target="org.slf4j.ILoggerFactory">
+              <point x="0.0" y="-16.5" />
+              <point x="484.0" y="-109.0" />
+              <point x="334.66666666666663" y="-109.0" />
+              <point x="49.66666666666663" y="16.5" />
+            </edge>
+            <edge source="org.slf4j.helpers.MarkerIgnoringBase" target="org.slf4j.helpers.NamedLoggerBase">
+              <point x="-46.75" y="-16.5" />
+              <point x="308.25" y="141.0" />
+              <point x="305.5" y="141.0" />
+              <point x="0.0" y="16.5" />
+            </edge>
+            <edge source="org.slf4j.helpers.NOPLoggerFactory" target="org.slf4j.ILoggerFactory">
+              <point x="0.0" y="-16.5" />
+              <point x="0.0" y="16.5" />
+            </edge>
+          </edges>
+          <settings layout="Hierarchic Group" zoom="1.0" x="-16.0" y="-44.0" />
+          <SelectedNodes />
+          <Categories />
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>public</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/gupaoedu/vip/pattern/factory/abstractfactory/PythonVideo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="5" selection-start-line="5" selection-end-line="9" selection-end-column="1" />
+          <folding>
+            <element signature="e#156#157#0" expanded="true" />
+            <element signature="e#204#205#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/gupaoedu/vip/pattern/factory/abstractfactory/PythonNote.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="6" selection-start-line="6" selection-end-line="11" selection-end-column="1" />
+          <folding>
+            <element signature="e#165#166#0" expanded="true" />
+            <element signature="e#213#214#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/gupaoedu/vip/pattern/factory/factorymethod/PythonCourseFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="13" column="1" lean-forward="true" selection-start-line="13" selection-start-column="1" selection-end-line="13" selection-end-column="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/gupaoedu/vip/pattern/factory/factorymethod/FactoryMethodTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="11" column="59" lean-forward="true" selection-start-line="11" selection-start-column="59" selection-end-line="11" selection-end-column="59" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://JAVA/com.gupaoedu.vip.pattern.factory.abstractfactory.AbstractFactoryTest">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JAVA</ID>
+          <OriginalElement>com.gupaoedu.vip.pattern.factory.abstractfactory.AbstractFactoryTest</OriginalElement>
+          <nodes>
+            <node x="" y="">com.gupaoedu.vip.pattern.factory.abstractfactory.CourseFactory</node>
+            <node x="" y="">com.gupaoedu.vip.pattern.factory.abstractfactory.AbstractFactoryTest</node>
+            <node x="" y="">com.gupaoedu.vip.pattern.factory.abstractfactory.JavaCourseFactory</node>
+            <node x="" y="">com.gupaoedu.vip.pattern.factory.abstractfactory.IVideo</node>
+            <node x="" y="">com.gupaoedu.vip.pattern.factory.abstractfactory.JavaVideo</node>
+            <node x="" y="">com.gupaoedu.vip.pattern.factory.abstractfactory.PythonCourseFactory</node>
+            <node x="" y="">com.gupaoedu.vip.pattern.factory.abstractfactory.INote</node>
+            <node x="" y="">com.gupaoedu.vip.pattern.factory.abstractfactory.PythonNote</node>
+            <node x="" y="">com.gupaoedu.vip.pattern.factory.abstractfactory.JavaNote</node>
+            <node x="" y="">com.gupaoedu.vip.pattern.factory.abstractfactory.PythonVideo</node>
+          </nodes>
+          <notes />
+          <edges />
+          <settings layout="Hierarchic Group" zoom="1.0" x="55.5" y="164.0" />
+          <SelectedNodes />
+          <Categories />
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>private</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/gupaoedu/vip/pattern/factory/ICourse.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="11" column="1" lean-forward="true" selection-start-line="11" selection-start-column="1" selection-end-line="11" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/gupaoedu/vip/pattern/factory/simplefactory/CourseFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="260">
+          <caret line="27" column="34" lean-forward="true" selection-start-line="27" selection-start-column="34" selection-end-line="27" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/gupaoedu/vip/pattern/factory/simplefactory/SimpleFactoryTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="13" column="44" lean-forward="true" selection-start-line="13" selection-start-column="44" selection-end-line="13" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/gupaoedu/vip/pattern/factory/JavaCourse.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="9" column="39" lean-forward="true" selection-start-line="9" selection-start-column="8" selection-end-line="9" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/gupaoedu/vip/pattern/factory/PythonCourse.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/gupaoedu/vip/pattern/factory/factorymethod/ICourseFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="8" column="31" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/gupaoedu/vip/pattern/factory/factorymethod/JavaCourseFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="10" column="32" lean-forward="true" selection-start-line="10" selection-start-column="32" selection-end-line="10" selection-end-column="32" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#273#274#0" expanded="true" />
+            <element signature="e#312#313#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/gupaoedu/vip/pattern/factory/abstractfactory/PythonCourseFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="5" selection-start-line="5" selection-end-line="15" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://JAVA/com.gupaoedu.vip.pattern.factory.abstractfactory.CourseFactory">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JAVA</ID>
+          <OriginalElement>com.gupaoedu.vip.pattern.factory.abstractfactory.CourseFactory</OriginalElement>
+          <nodes>
+            <node x="111.0" y="0.0">com.gupaoedu.vip.pattern.factory.abstractfactory.CourseFactory</node>
+            <node x="190.0" y="80.0">com.gupaoedu.vip.pattern.factory.abstractfactory.JavaCourseFactory</node>
+            <node x="85.75" y="155.0">com.gupaoedu.vip.pattern.factory.abstractfactory.IVideo</node>
+            <node x="142.0" y="235.0">com.gupaoedu.vip.pattern.factory.abstractfactory.JavaVideo</node>
+            <node x="0.0" y="80.0">com.gupaoedu.vip.pattern.factory.abstractfactory.PythonCourseFactory</node>
+            <node x="82.75" y="310.0">com.gupaoedu.vip.pattern.factory.abstractfactory.INote</node>
+            <node x="0.0" y="390.0">com.gupaoedu.vip.pattern.factory.abstractfactory.PythonNote</node>
+            <node x="137.0" y="390.0">com.gupaoedu.vip.pattern.factory.abstractfactory.JavaNote</node>
+            <node x="0.0" y="235.0">com.gupaoedu.vip.pattern.factory.abstractfactory.PythonVideo</node>
+          </nodes>
+          <notes />
+          <edges>
+            <edge source="com.gupaoedu.vip.pattern.factory.abstractfactory.JavaCourseFactory" target="com.gupaoedu.vip.pattern.factory.abstractfactory.CourseFactory">
+              <point x="0.0" y="-15.0" />
+              <point x="267.0" y="55.0" />
+              <point x="208.5" y="55.0" />
+              <point x="32.5" y="15.0" />
+            </edge>
+            <edge source="com.gupaoedu.vip.pattern.factory.abstractfactory.JavaNote" target="com.gupaoedu.vip.pattern.factory.abstractfactory.INote">
+              <point x="0.0" y="-15.0" />
+              <point x="187.0" y="365.0" />
+              <point x="142.75" y="365.0" />
+              <point x="20.0" y="15.0" />
+            </edge>
+            <edge source="com.gupaoedu.vip.pattern.factory.abstractfactory.PythonNote" target="com.gupaoedu.vip.pattern.factory.abstractfactory.INote">
+              <point x="0.0" y="-15.0" />
+              <point x="58.5" y="365.0" />
+              <point x="102.75" y="365.0" />
+              <point x="-20.0" y="15.0" />
+            </edge>
+            <edge source="com.gupaoedu.vip.pattern.factory.abstractfactory.PythonVideo" target="com.gupaoedu.vip.pattern.factory.abstractfactory.IVideo">
+              <point x="0.0" y="-15.0" />
+              <point x="61.0" y="210.0" />
+              <point x="106.75" y="210.0" />
+              <point x="-21.0" y="15.0" />
+            </edge>
+            <edge source="com.gupaoedu.vip.pattern.factory.abstractfactory.PythonCourseFactory" target="com.gupaoedu.vip.pattern.factory.abstractfactory.CourseFactory">
+              <point x="0.0" y="-15.0" />
+              <point x="85.0" y="55.0" />
+              <point x="143.5" y="55.0" />
+              <point x="-32.5" y="15.0" />
+            </edge>
+            <edge source="com.gupaoedu.vip.pattern.factory.abstractfactory.JavaVideo" target="com.gupaoedu.vip.pattern.factory.abstractfactory.IVideo">
+              <point x="0.0" y="-15.0" />
+              <point x="194.5" y="210.0" />
+              <point x="148.75" y="210.0" />
+              <point x="21.0" y="15.0" />
+            </edge>
+          </edges>
+          <settings layout="Hierarchic Group" zoom="1.0" x="-93.0" y="128.0" />
+          <SelectedNodes>
+            <node>com.gupaoedu.vip.pattern.factory.abstractfactory.CourseFactory</node>
+          </SelectedNodes>
+          <Categories />
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>private</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/gupaoedu/vip/pattern/factory/abstractfactory/INote.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="6" column="17" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/gupaoedu/vip/pattern/factory/abstractfactory/IVideo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="6" column="17" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/gupaoedu/vip/pattern/factory/abstractfactory/JavaNote.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="6" selection-start-line="6" selection-end-line="11" selection-end-column="1" />
+          <folding>
+            <element signature="e#160#161#0" expanded="true" />
+            <element signature="e#206#207#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/gupaoedu/vip/pattern/factory/abstractfactory/AbstractFactoryTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="13" selection-start-line="7" selection-end-line="14" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/gupaoedu/vip/pattern/factory/abstractfactory/CourseFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="12" column="25" lean-forward="true" selection-start-line="12" selection-start-column="25" selection-end-line="12" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/gupaoedu/vip/pattern/factory/abstractfactory/JavaCourseFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="5" selection-start-line="5" selection-end-line="14" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/gupaoedu/vip/pattern/factory/abstractfactory/JavaVideo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="4" column="21" lean-forward="true" selection-start-line="4" selection-start-column="21" selection-end-line="4" selection-end-column="21" />
+          <folding>
+            <element signature="e#158#159#0" expanded="true" />
+            <element signature="e#204#205#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>No facets are configured</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>JDK1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>gupaoedu-vip-pattern-factory</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>JDK1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>
