@@ -1,7 +1,7 @@
 package com.gupao.gp17190.springframework.context.support;
 
 import com.gupao.gp17190.springframework.beans.MyBeanWrapper;
-import com.gupao.gp17190.springframework.beans.annotation.MyAutoWired;
+import com.gupao.gp17190.springframework.beans.annotation.MyAutowired;
 import com.gupao.gp17190.springframework.beans.annotation.MyController;
 import com.gupao.gp17190.springframework.beans.annotation.MyService;
 import com.gupao.gp17190.springframework.beans.factory.MyBeanFactory;
@@ -13,6 +13,7 @@ import com.gupao.gp17190.springframework.beans.factory.support.MyDefaultListable
 import java.lang.reflect.Field;
 import java.util.List;
 import java.util.Map;
+import java.util.Properties;
 import java.util.concurrent.ConcurrentHashMap;
 
 /**
@@ -49,6 +50,7 @@ public class MyApplicationContext extends MyDefaultListableBeanFactory implement
     public void refresh() throws Exception {
         // 1.定位配置
         reader = new MyBeanDefinitionReader(this.configLocations);
+
         // 2.解析
         List<MyBeanDefinition> beanDefinitionList = reader.loadBeanDefinitions();
 
@@ -106,20 +108,20 @@ public class MyApplicationContext extends MyDefaultListableBeanFactory implement
     private void populateBean(String beanName, MyBeanDefinition myBeanDefinition, MyBeanWrapper beanWrapper) {
         Class<?> beanClass = beanWrapper.getWrappedClass();
         if (!beanClass.isAnnotationPresent(MyController.class)
-                && beanClass.isAnnotationPresent(MyService.class))
+                && !beanClass.isAnnotationPresent(MyService.class))
             return;
 
         Field[] fields = beanClass.getDeclaredFields();
         for (Field field : fields) {
-            if (field.isAnnotationPresent(MyAutoWired.class)) continue;
+            if (!field.isAnnotationPresent(MyAutowired.class)) continue;
 
-            MyAutoWired autoWired = field.getAnnotation(MyAutoWired.class);
+            MyAutowired autoWired = field.getAnnotation(MyAutowired.class);
             String dependsBeanName = autoWired.value();
             if ("".equals(dependsBeanName.trim())) {
                 dependsBeanName = field.getType().getName();
             }
 
-            Object dependsBeanInstance = this.factoryBeanInstanceCache.get(dependsBeanName);
+            MyBeanWrapper dependsBeanInstance = this.factoryBeanInstanceCache.get(dependsBeanName);
 
             // TODO 依赖的bean正在初始化，或者存在循环引用，暂不处理
             // spring中的解决方案是，提前暴露初始化中的实例，来中断深层次的循环
@@ -129,7 +131,7 @@ public class MyApplicationContext extends MyDefaultListableBeanFactory implement
 
             try {
                 field.setAccessible(true);
-                field.set(beanWrapper.getWrappedInstance(), dependsBeanInstance);
+                field.set(beanWrapper.getWrappedInstance(), dependsBeanInstance.getWrappedInstance());
             } catch (IllegalAccessException e) {
                 e.printStackTrace();
             }
@@ -147,6 +149,11 @@ public class MyApplicationContext extends MyDefaultListableBeanFactory implement
             }
 
             Class<?> beanClass = Class.forName(beanDefinition.getBeanClassName());
+
+            boolean needInstantiate = beanClass.isAnnotationPresent(MyService.class)
+                    || beanClass.isAnnotationPresent(MyController.class);
+            if (!needInstantiate) return null;
+
             instance = beanClass.newInstance();
 
             this.singletonObjects.put(beanName, instance);
@@ -196,5 +203,9 @@ public class MyApplicationContext extends MyDefaultListableBeanFactory implement
 
     public String[] getAliases(String name) {
         return new String[0];
+    }
+
+    public Properties getConfig() {
+        return this.reader.getConfig();
     }
 }

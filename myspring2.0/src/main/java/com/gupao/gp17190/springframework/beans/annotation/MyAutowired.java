@@ -2,9 +2,9 @@ package com.gupao.gp17190.springframework.beans.annotation;
 
 import java.lang.annotation.*;
 
-@Target({ElementType.TYPE, ElementType.METHOD})
+@Target({ElementType.FIELD})
 @Retention(RetentionPolicy.RUNTIME)
 @Documented
-public @interface MyRequestMapping {
+public @interface MyAutowired {
     String value() default "";
 }

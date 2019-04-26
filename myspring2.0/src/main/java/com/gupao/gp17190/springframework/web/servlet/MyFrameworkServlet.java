@@ -19,10 +19,13 @@ public abstract class MyFrameworkServlet extends HttpServlet {
 
     @Override
     public void init(ServletConfig config) throws ServletException {
+        // 初始化上下文
         context = new MyApplicationContext(config.getInitParameter(CONTEXT_CONFIG_LOCATION));
+        // 初始化组件
         onRefresh(context);
     }
 
+    // 空方法，交给子类去实现
     protected void onRefresh(MyApplicationContext context) {
     }
 }

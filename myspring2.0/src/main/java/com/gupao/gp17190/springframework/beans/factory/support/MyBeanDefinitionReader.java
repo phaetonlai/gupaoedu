@@ -1,5 +1,7 @@
 package com.gupao.gp17190.springframework.beans.factory.support;
 
+import com.gupao.gp17190.springframework.beans.annotation.MyController;
+import com.gupao.gp17190.springframework.beans.annotation.MyService;
 import com.gupao.gp17190.springframework.beans.factory.config.MyBeanDefinition;
 
 import java.io.File;
@@ -18,7 +20,7 @@ import java.util.Properties;
  **/
 public class MyBeanDefinitionReader {
     // 已经注册的bean的class名称
-    private List<String> registryBeanClasses = new ArrayList<>();
+    private List<String> registryBeanClasses = new ArrayList<String>();
 
     private Properties config = new Properties();
 
@@ -50,16 +52,25 @@ public class MyBeanDefinitionReader {
     }
 
     private void doScanner(String scanPackage) {
-        URL url = this.getClass().getResource(scanPackage.replaceAll("\\.", "/"));
+        URL url = this.getClass().getResource("/" + scanPackage.replaceAll("\\.", "/"));
         File rootPath = new File(url.getFile());
         for (File file : rootPath.listFiles()) {
             if (file.isDirectory()) {
-                doScanner(scanPackage + "\\." + file.getName());
+                doScanner(scanPackage + "." + file.getName());
             }
             else {
                 if (!file.getName().endsWith(".class")) continue;
                 String className = scanPackage + "." + file.getName().replace(".class", "");
-                // 注册className
+                // 注册className，未加注解的类，不在管理范围
+                try {
+                    Class<?> beanClass = Class.forName(className);
+                    boolean needInstantiate = beanClass.isAnnotationPresent(MyService.class)
+                            || beanClass.isAnnotationPresent(MyController.class);
+                    if (!needInstantiate) continue;
+                } catch (ClassNotFoundException e) {
+                    e.printStackTrace();
+                }
+
                 registryBeanClasses.add(className);
             }
         }
@@ -67,7 +78,7 @@ public class MyBeanDefinitionReader {
     }
 
     public List<MyBeanDefinition> loadBeanDefinitions() {
-        List<MyBeanDefinition> beanDefinitions = new ArrayList<>();
+        List<MyBeanDefinition> beanDefinitions = new ArrayList<MyBeanDefinition>();
         // 扫描已经注册的类信息，创建对应的BeanDefinition
         for (String beanClass : this.registryBeanClasses) {
             Class<?> clazz = null;
@@ -79,6 +90,13 @@ public class MyBeanDefinitionReader {
             if (clazz.isInterface()) continue;
 
             beanDefinitions.add(doCreateBeanDefinition(toLowerFirstCase(clazz.getSimpleName()), clazz.getName()));
+            beanDefinitions.add(doCreateBeanDefinition(clazz.getName(), clazz.getName()));
+
+            // 接口
+            for (Class<?> anInterface : clazz.getInterfaces()) {
+                beanDefinitions.add(doCreateBeanDefinition(anInterface.getName(), clazz.getName()));
+            }
+
         }
 
         return beanDefinitions;
@@ -103,5 +121,9 @@ public class MyBeanDefinitionReader {
 
     public int loadBeanDefinitions(String location) {
         return 0;
+    }
+
+    public Properties getConfig() {
+        return this.config;
     }
 }
