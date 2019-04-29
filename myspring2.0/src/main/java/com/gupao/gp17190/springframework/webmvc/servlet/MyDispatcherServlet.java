@@ -34,7 +34,6 @@ public class MyDispatcherServlet extends MyFrameworkServlet {
 
     private List<MyViewResolver> viewResolvers = new ArrayList<MyViewResolver>();
 
-
     @Override
     protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
         this.doPost(req, resp);

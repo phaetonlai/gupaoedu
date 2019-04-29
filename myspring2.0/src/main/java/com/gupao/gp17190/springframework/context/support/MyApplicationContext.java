@@ -1,5 +1,10 @@
 package com.gupao.gp17190.springframework.context.support;
 
+import com.gupao.gp17190.springframework.aop.MyAopProxy;
+import com.gupao.gp17190.springframework.aop.MyCglibAopProxy;
+import com.gupao.gp17190.springframework.aop.MyJdkDynamicAopProxy;
+import com.gupao.gp17190.springframework.aop.config.MyAopConfig;
+import com.gupao.gp17190.springframework.aop.support.MyAdvisedSupport;
 import com.gupao.gp17190.springframework.beans.MyBeanWrapper;
 import com.gupao.gp17190.springframework.beans.annotation.MyAutowired;
 import com.gupao.gp17190.springframework.beans.annotation.MyController;
@@ -156,6 +161,14 @@ public class MyApplicationContext extends MyDefaultListableBeanFactory implement
 
             instance = beanClass.newInstance();
 
+            MyAdvisedSupport support = instantionAopConfig(beanDefinition);
+            support.setTarget(instance);
+            support.setTargetClass(beanClass);
+
+            if (support.pointCutMatch()) {
+                instance = createProxy(support).getProxy();
+            }
+
             this.singletonObjects.put(beanName, instance);
             this.singletonObjects.put(beanDefinition.getBeanClassName(), instance);
 
@@ -171,6 +184,26 @@ public class MyApplicationContext extends MyDefaultListableBeanFactory implement
         // 指定scope的对象的创建暂不实现
 
         return instance;
+    }
+
+    private MyAopProxy createProxy(MyAdvisedSupport support) {
+        Class<?> targetClass = support.getTargetClass();
+        if (targetClass.getInterfaces().length > 0) {
+            return new MyJdkDynamicAopProxy(support);
+        }
+        return new MyCglibAopProxy(support);
+    }
+
+    private MyAdvisedSupport instantionAopConfig(MyBeanDefinition beanDefinition) {
+        MyAopConfig config = new MyAopConfig();
+        config.setPointCut(this.reader.getConfig().getProperty("pointCut"));
+        config.setAspectClass(this.reader.getConfig().getProperty("aspectClass"));
+        config.setAspectBefore(this.reader.getConfig().getProperty("aspectBefore"));
+        config.setAspectAfter(this.reader.getConfig().getProperty("aspectAfter"));
+        config.setAspectAfterThrow(this.reader.getConfig().getProperty("aspectAfterThrow"));
+        config.setAspectAfterThrowingName(this.reader.getConfig().getProperty("aspectAfterThrowingName"));
+
+        return new MyAdvisedSupport(config);
     }
 
     public <T> T getBean(Class<T> requiredType) {
