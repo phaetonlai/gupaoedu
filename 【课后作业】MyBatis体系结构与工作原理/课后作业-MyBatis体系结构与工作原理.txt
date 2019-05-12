@@ -1,0 +1,13 @@
+2. 总结：MyBatis里面用到了哪些设计模式？
+装饰器模式，缓存模块各种回收策略的缓存都是对基本缓存PerpetualCache的装饰。
+模板模式，Executor的基础实现BaseExecutor作为模板，具体增删改查由子类去实现；全局配置文件的解析。
+代理模式，Mapper对象的创建默认使用Javassist动态代理创建代理对象。
+单例模式，Mapper对象是注册式单例对象。
+工厂方法模式，SqlSessionFactory对象由SqlSessionFactoryBuilder工厂创建；SqlSession对象由SqlSessionFactory工厂创建。
+委派模式，缓存模块中各种回收策略的缓存，对缓存的具体处理都是委派给底层PerpetualCache去处理。
+建造者模式，对mapper文件中复杂节点的解析，用建造者模式进行节点对象的创建，比如ResultMap节点对象的创建。
+策略模式，执行器Executor的具体类型的选择使用策略模式。
+责任链模式，对执行器的拦截使用责任链的模式层层拦截。
+
+
+
