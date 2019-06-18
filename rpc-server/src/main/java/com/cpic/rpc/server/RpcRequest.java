@@ -9,6 +9,8 @@ import java.io.Serializable;
  * @Version 1.0
  **/
 public class RpcRequest implements Serializable {
+    private static final long serialVersionUID = 7746283038655062004L;
+
     private String serviceName;
 
     private String methodName;

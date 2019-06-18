@@ -1,8 +1,10 @@
 package com.cpic.rpc;
 
-import com.cpic.rpc.config.SpringConfig;
-import org.springframework.context.ApplicationContext;
-import org.springframework.context.annotation.AnnotationConfigApplicationContext;
+import com.cpic.rpc.server.RpcServer;
+import com.cpic.rpc.service.HelloService;
+
+import java.util.HashMap;
+import java.util.Map;
 
 /**
  * @Author laihui
@@ -12,8 +14,9 @@ import org.springframework.context.annotation.AnnotationConfigApplicationContext
  **/
 public class App {
     public static void main(String[] args) {
-        ApplicationContext context = new AnnotationConfigApplicationContext(SpringConfig.class);
+        Map<String, Object> serviceRegistry = new HashMap<>();
+        serviceRegistry.put("IHelloService", new HelloService());
 
-        ((AnnotationConfigApplicationContext) context).start();
+        new RpcServer(serviceRegistry).publish();
     }
 }
