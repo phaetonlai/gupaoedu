@@ -31,7 +31,8 @@ public class RpcInvocationHandler implements InvocationHandler {
         request.setParamTypes(method.getParameterTypes());
         request.setAgrs(args);
         request.setVersion(version);
+        boolean isVoid = method.getReturnType() == Void.class || method.getReturnType() == void.class;
 
-        return RpcRequestSender.send(ip, port, request);
+        return RpcRequestSender.send(ip, port, request, isVoid);
     }
 }

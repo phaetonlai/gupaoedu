@@ -15,7 +15,7 @@ import java.net.Socket;
  **/
 public class RpcRequestSender {
 
-    public static Object send(String ip, int port, RpcRequest request) {
+    public static Object send(String ip, int port, RpcRequest request, boolean isVoid) {
         Socket socket = null;
         ObjectOutputStream oos = null;
         ObjectInputStream ois = null;
@@ -25,10 +25,11 @@ public class RpcRequestSender {
             oos.writeObject(request);
             oos.flush();
 
-            ois = new ObjectInputStream(socket.getInputStream());
-            Object result = ois.readObject();
-
-            return result;
+            if (!isVoid) {
+                ois = new ObjectInputStream(socket.getInputStream());
+                Object result = ois.readObject();
+                return result;
+            }
         }
         catch (Exception e) {
             e.printStackTrace();
