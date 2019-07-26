@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:dubbo="http://dubbo.apache.org/schema/dubbo"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans        http://www.springframework.org/schema/beans/spring-beans-4.3.xsd        http://dubbo.apache.org/schema/dubbo        http://dubbo.apache.org/schema/dubbo/dubbo.xsd">
+
+    <dubbo:application name="dubbo-rpc-client"/>
+
+    <!--<dubbo:protocol name="rest" port="8989" server="jetty"/>-->
+
+    <dubbo:registry address="zookeeper://127.0.0.1:2181" file="e:/dubbo-server"/>
+
+    <dubbo:reference id="loginService" interface="com.gupao.dubbo.rpc.service.api.ILoginService" protocol="webservice"/>
+                     <!--url="dubbo://localhost:20880/com.gupao.dubbo.rpc.service.api.ILoginService"/>-->
+
+    <dubbo:reference  id="registerService" interface="com.gupao.dubbo.rpc.service.api.IRegisterService" protocol="rest"/>
+
+</beans>
